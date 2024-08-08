@@ -1,0 +1,339 @@
+@media (max-width: 1000px) {
+    .article__title {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 16px;
+    }
+
+    .article__img {
+        background-image: url(../img/article__img-690.svg);
+        background-position: 16px 35px;
+        background-size: 91% 84%;
+    }
+
+    .article__descr {
+        margin-bottom: 62px;
+    }
+
+    .benefits__item {
+        padding-left: 15px;
+        padding-top: 91px;
+        background-position: 15px 0;
+        align-self: flex-start;
+    }
+
+    .benefits__img {
+        background-size: 88% 86%;
+    }
+
+    .teacher__item {
+        margin-bottom: 22px;
+    }
+
+    .benefits__list {
+        padding-inline-start: 0;
+    }
+
+    .benefits__container {
+        padding-bottom: 242px;
+    }
+
+    .benefits__item__img1 {
+        left: -15px;
+    }
+
+    .benefits__item__img2 {
+        left: -5px;
+    }
+
+    .benefits__item__img3 {
+        left: 5px;
+    }
+
+    .teacher__container {
+        padding-bottom: 27px;
+    }
+
+    .offers__card__img4 {
+        background-image: url(../img/offers__img4-690.svg);
+    }
+
+    .offers__descr {
+        margin-bottom: auto;
+    }
+
+    .offers__btn {
+        padding: 20.5px 56px;
+    }
+
+    .offers__card {
+        min-height: 556px;
+        justify-content: flex-start;
+    }
+
+}
+
+@media (max-width:767px) {
+    .header__container {
+        flex-direction: column;
+        justify-content: start;
+        height: 133px;
+        padding-top: 30px;
+    }
+
+    .logo {
+        margin-bottom: 27px;
+    }
+
+    .article__img {
+        display: none;
+    }
+
+    .article__card {
+        padding-top: 77px;
+    }
+
+    .article__container {
+        min-height: 567px;
+    }
+
+    .benefits__img {
+        background-size: 83% 85%;
+        background-position: 15px -82px
+    }
+
+    .benefits__container {
+        padding-bottom: 241px;
+    }
+
+    .benefits__item__img1 {
+        padding-right: 20px;
+    }
+
+    .teacher__container {
+        padding-bottom: 51px;
+    }
+
+    .offers__card {
+        min-height: 653px;
+    }
+
+    .offers__item {
+        display: block;
+    }
+
+    .offers__item__title {
+        line-height: 24px;
+    }
+
+    .offers__card {
+        padding-right: 20px;
+    }
+
+    .offers__btn {
+        padding: 20.5px 48px;
+    }
+
+    .offers__card__time {
+        top: 11px;
+        right: 10px;
+    }
+}
+
+@media (max-width:575px) {
+
+    .header__container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+        height: 80px;
+    }
+
+    .burger {
+        display: block;
+        position: relative;
+        width: 25px;
+        height: 18px;
+        outline: 0;
+    }
+
+    .burger__line {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 2px;
+        width: 80%;
+        color: #ffffff;
+        background-color: currentColor;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav {
+        min-width: 100vw;
+        height: 100vh;
+        padding: 23px 15px;
+    }
+
+    .nav__close {
+        display: block;
+    }
+
+    .nav {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #2F2C45;
+        width: 100vw;
+        height: 433px;
+        padding: 25px 20px;
+        opacity: 0;
+        z-index: 1000;
+        box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.1);
+        transform: translateY(-100%);
+        transition: transform .3s ease-in-out, opacity .3s ease-in-out, visibility .3s ease-in-out;
+        visibility: hidden;
+    }
+
+    .nav.active {
+        /* display: block; */
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav__item:first-child {
+        align-self: flex-end;
+    }
+
+    .nav__item:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 56px;
+    }
+
+    .nav__link {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .nav__item {
+        margin-right: 0;
+    }
+
+    .burger__line:nth-child(2) {
+        top: 45%
+    }
+
+    .burger__line:nth-child(3) {
+        top: 85%;
+    }
+
+    .logo {
+        order: -1;
+    }
+
+    .logo__link {
+        display: block;
+        width: 72px;
+    }
+
+    .article__container {
+        min-height: auto;
+    }
+
+    .article__card {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .article__title {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 5px;
+    }
+
+    .article__descr {
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 45px;
+    }
+
+    .article__btn {
+        padding: 21px 54px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .benefits__container {
+        padding-top: 48px;
+        padding-bottom: 347px;
+    }
+
+    .benefits__title {
+        margin-bottom: 2px;
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .benefits__item {
+        padding-top: 0;
+        padding-left: 125px;
+        margin-bottom: 30px;
+    }
+
+    .benefits__item__img2 {
+        top: 111px;
+        padding-left: 117px;
+        background-position: 4px 0;
+    }
+
+    .benefits__item__img3 {
+        top: 219px;
+        left: -16px;
+    }
+
+    .teacher__title {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .teacher__container {
+        padding-top: 47px;
+        padding-bottom: 26px;
+    }
+
+    .offers__container {
+        padding-top: 46px;
+    }
+
+    .offers__title {
+        margin-bottom: 27px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .offers__card{
+        padding-right: 28px;
+    }
+
+    .offers__btn {
+        padding: 20.5px 56px;
+    }
+
+    .offers__list{
+        margin-bottom: 20px;
+    }
+}
